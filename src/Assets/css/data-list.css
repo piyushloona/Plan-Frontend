@@ -1,0 +1,54 @@
+.data-list{
+    position: absolute;
+    top: 134px;
+    left: 240px;
+    width: -webkit-fill-available;
+    padding-right: 40px;
+}
+
+
+.data-list h2{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.data-list table{
+    border: 1px solid #eee7e7;
+    width: 100%;
+    padding: 10px;
+}
+
+.data-list table thead th{
+    border-bottom: 1px  solid  #eee7e7; ;
+    font-size: 12px;
+    text-align-last: center;
+    font-weight: 600;
+}
+
+.data-list table tbody td{
+    font-size: 12px;
+    text-align-last: center;
+    font-weight: 600;
+}
+
+.icons-delete{
+     display: flex;
+    justify-content: space-between;
+
+}
+.delete-icon{
+    color: red;
+    cursor: pointer;
+}
+.edit-icon{
+    color: blue;
+    cursor: pointer;
+
+}
+.security-icon{
+    color: green;
+    cursor: pointer;
+
+}
